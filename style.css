@@ -1,0 +1,86 @@
+.main{
+    background-color: black;
+}
+.calculator{
+    margin-top: 5%;
+    border: 1px solid white;
+    background-color: black;
+    padding-top: 7px;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 410px;
+    width: 280px;
+    border-radius: 2%;
+}
+
+#input{
+    margin-left: 7px;
+    margin-bottom: 7px;
+    height: 20px;
+    width: 260px;
+    text-align: right;
+    color: black;
+    
+}
+#rb1{
+    color: #d69c29;
+}
+.row{
+    display: flex;
+    margin-bottom: 4px;
+}
+.row1{
+    margin-top: 4px;
+}
+.DegRad{
+    border: 1px;
+    margin-top: 4px;
+    
+}
+.btn{
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    width: 270px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid rgb(84, 83, 83);
+    color:black;
+    font-size: medium;
+    
+}
+.operator-btn{
+    background-color: rgba(255, 255, 255, 0.814);
+    border-radius: 10px;
+    width: 50px; 
+    height: 30px; 
+    font-size: 16px;
+    margin-top: 2px;
+    
+}
+.operator-btn:hover {
+    background-color: rgb(99, 157, 141);
+}
+
+.dark-mode {
+    background-color: hsl(178, 16%, 57%);
+    /* text-color: #fff; */
+}
+#num{
+    background-color: gray;
+}
+
+#cal{
+    background-color: #61bef0;
+}
+.operations{
+    margin-left: 7px;
+    margin-bottom: 7px;
+}
+
+.output{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    width:100%;
+}
